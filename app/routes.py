@@ -1,12 +1,14 @@
 from app import app
 from flask import render_template
 from flask import Flask, url_for
+from generate_graph import generate_graph
 
 
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('home.html')
+    graph_html = generate_graph("^GSPC")
+    return render_template('home.html', graph_html=graph_html)
 
 @app.route('/stocks')
 def stocks():
