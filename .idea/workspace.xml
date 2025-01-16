@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5af762b-4dcf-46c3-9fde-4060e8b73b06" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generate_graph.py" afterDir="false" />
+    <list default="true" id="c5af762b-4dcf-46c3-9fde-4060e8b73b06" name="Changes" comment="Pushing updates">
+      <change afterPath="$PROJECT_DIR$/app/static/css/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/images/Hendriksen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/images/Hendriksen.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +122,17 @@
       <workItem from="1736869189894" duration="2005000" />
       <workItem from="1736872479878" duration="13525000" />
       <workItem from="1736963118539" duration="118000" />
-      <workItem from="1737035843498" duration="10497000" />
+      <workItem from="1737035843498" duration="11298000" />
     </task>
+    <task id="LOCAL-00001" summary="Pushing updates">
+      <option name="closed" value="true" />
+      <created>1737047414463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737047414463</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,5 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Pushing updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing updates" />
   </component>
 </project>

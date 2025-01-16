@@ -123,7 +123,6 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-
 .main-title-details {
     display: flex;
     margin: 10px;
@@ -147,39 +146,6 @@ nav ul li a:hover {
     padding: 5px 10px;
 }
 
-.index-toggle {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    width: 40%;
-    margin: 10px auto;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #d7d6d3
-}
-
-.index-toggle button {
-    padding: 5px 8px;
-    font-size: 12px;
-    color: #fff;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.index-toggle button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-.index-toggle button:active {
-    background-color: #0056b3;
-    transform: scale(0.95);
-}
-
 .graph-container {
     display: flex;
     justify-content: center;
@@ -198,36 +164,61 @@ nav ul li a:hover {
     display: block;
 }
 
-.time-toggle {
+/* Container for both button groups */
+.button-section {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-    width: 40%;
-    margin: 10px auto;
+    flex-direction: column;
+    align-items: center; /* Center-align the groups */
+    gap: 20px; /* Space between groups */
+    margin: 20px auto;
     padding: 10px;
-    border-radius: 8px;
-    background-color: #d7d6d3
+    background-color: #d7d6d3; /* Subtle background for button area */
+    border-radius: 10px; /* Rounded edges for the container */
 }
 
-.time-toggle button {
-    padding: 5px 8px;
-    font-size: 12px;
+/* Grouping for each set of buttons */
+.index-buttons,
+.time-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center; /* Center-align buttons within group */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Button styling */
+button {
+    padding: 10px 15px;
+    font-size: 14px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #007BFF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.time-toggle button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+/* Hover and active states */
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom */
 }
 
-.time-toggle button:active {
-    background-color: #0056b3;
-    transform: scale(0.95);
+button:active {
+    background-color: #004080; /* Even darker blue on click */
+    transform: scale(0.95); /* Press-in effect */
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .index-buttons,
+    .time-buttons {
+        flex-direction: column; /* Stack buttons vertically on smaller screens */
+        gap: 15px;
+    }
+
+    button {
+        width: 100%; /* Make buttons full-width for better usability */
+    }
+}
+
 

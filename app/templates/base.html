@@ -48,22 +48,26 @@
             </div>
         </div>
 
-         <div class="index-toggle">
-            <button class="index-button" data-ticker="^GSPC">S&P500</button>
-            <button class="index-button" data-ticker="^DJI">Dow Jones</button>
-            <button class="index-button" data-ticker="^NASDAQ">Nasdaq</button>
-            <button class="index-button" data-ticker="^RUT">Russel</button>
-            <button class="index-button" data-ticker="^VIX">CBOE</button>
-        </div>
+        <div class="button-section">
 
-        <div class="time-toggle">
-            <button class="time-button">1 Day</button>
-            <button class="time-button">5 Days</button>
-            <button class="time-button">1 Month</button>
-            <button class="time-button">YTD</button>
-            <button class="time-button">1 Year</button>
-            <button class="time-button">5 Year</button>
-            <button class="time-button">Max</button>
+             <div class="index-toggle">
+                <button class="index-button" data-ticker="^GSPC">S&P500</button>
+                <button class="index-button" data-ticker="^DJI">Dow Jones</button>
+                <button class="index-button" data-ticker="^NASDAQ">Nasdaq</button>
+                <button class="index-button" data-ticker="^RUT">Russel</button>
+                <button class="index-button" data-ticker="^VIX">CBOE</button>
+            </div>
+
+            <div class="time-toggle">
+                <button class="time-button" data-period="1d">1 Day</button>
+                <button class="time-button" data-period="5d">5 Days</button>
+                <button class="time-button" data-period="1mo">1 Month</button>
+                <button class="time-button" data-period="ytd">YTD</button>
+                <button class="time-button" data-period="1y">1 Year</button>
+                <button class="time-button" data-period="5y">5 Year</button>
+                <button class="time-button" data-period="max">Max</button>
+            </div>
+
         </div>
     <main>
         {% block content %} {% endblock %}
